@@ -61,6 +61,37 @@ const Discover = () => {
           </h1>
         </div>
       </div>
+
+      <div className="my-20 flex justify-between items-center h-[500px]">
+        <div className="xl:w-[500px] w-1/3 sm:block hidden">
+          <img
+            className="w-full h-full object-cover"
+            src="images/image-33.jpg"
+            alt=""
+          />
+        </div>
+        <div className="xl:w-[500px] p-5 text-center space-y-5 sm:space-y-2">
+          <h1 className="md:text-xl sm:text-sm">Lorem ipsum dolor sit.</h1>
+          <h2 className="md:text-4xl sm:text-base">
+            Lorem ipsum dolor sitamet.
+          </h2>
+          <p className="md:text-base sm:text-xs">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore rem
+            perspiciatis quod.orem ipsum dolor sit amet consectetur adipisicing
+            elit. Tempore rem perspiciatis quod.
+          </p>
+          <button className="mt-5 px-5 py-2 border border-black hover:bg-gray-400 hover:duration-300">
+            Book Now
+          </button>
+        </div>
+        <div className="xl:w-[500px] w-1/3 sm:block hidden">
+          <img
+            className="w-full h-full object-cover"
+            src="images/image-33.jpg"
+            alt=""
+          />
+        </div>
+      </div>
     </React.Fragment>
   );
 };
