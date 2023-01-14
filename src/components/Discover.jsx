@@ -48,6 +48,19 @@ const Discover = () => {
           />
         </div>
       </div>
+
+      <div className="w-full h-[400px] my-10 relative">
+        <img
+          className="w-full h-full object-cover "
+          src="images/image-8.jpg"
+          alt=""
+        />
+        <div className="w-full h-full absolute top-0 flex justify-center items-center">
+          <h1 className="text-4xl text-white font-bold px-5 py-2 border cursor-pointer hover:bg-white hover:text-gray-500 hover:duration-300">
+            View Details
+          </h1>
+        </div>
+      </div>
     </React.Fragment>
   );
 };
