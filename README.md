@@ -18,7 +18,11 @@ To simply be comfortable with React :)
 
 ## Screenshot
 
+![DiscoverQatar](https://user-images.githubusercontent.com/93200960/212489681-de3ff13f-8fa7-49ed-8001-21da66b04a81.png)
+
 ## Demo
+
+https://user-images.githubusercontent.com/93200960/212489715-a6aeedfe-a2bf-4df7-9ce8-89ef48d6d882.mp4
 
 ## Acknowledgments
 
