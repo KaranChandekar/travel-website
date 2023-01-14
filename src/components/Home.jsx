@@ -41,6 +41,30 @@ const Home = () => {
           </div>
         </div>
       </nav>
+
+      <div>
+        <div>
+          <h2>D I S C O V E R</h2>
+          <h1>Q A T A R</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quam
+            consequatur, necessitatibus dolorem, provident voluptas esse
+            recusandae impedit distinctio laboriosam modi a nulla ratione
+            quaerat?
+          </p>
+        </div>
+
+        <div>
+          <button>Road Map</button>
+          <button>Book a Trip</button>
+        </div>
+
+        <div>
+          <AiFillFacebook />
+          <AiFillInstagram />
+          <AiFillTwitterSquare />
+        </div>
+      </div>
     </React.Fragment>
   );
 };
