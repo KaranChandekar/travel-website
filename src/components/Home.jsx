@@ -19,7 +19,7 @@ const Home = () => {
 
       <nav className="w-full absolute top-0 p-5 flex justify-between text-white z-10">
         <div>
-          <h1 className="text-3xl font-bold">قطر</h1>
+          <h1 className="text-3xl font-bold cursor-pointer">قطر</h1>
         </div>
 
         <div>
@@ -42,11 +42,11 @@ const Home = () => {
         </div>
       </nav>
 
-      <div>
-        <div>
-          <h2>D I S C O V E R</h2>
-          <h1>Q A T A R</h1>
-          <p>
+      <div className="absolute top-0 h-screen flex flex-col space-y-10 justify-center items-center bg-black opacity-75 xl:w-1/3 sm:w-1/2 z-0">
+        <div className="text-white text-center space-y-5">
+          <h2 className="text-2xl font-bold cursor-default">D I S C O V E R</h2>
+          <h1 className="text-5xl font-bold cursor-default">Q A T A R</h1>
+          <p className="mx-10 text-gray-400 cursor-default">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quam
             consequatur, necessitatibus dolorem, provident voluptas esse
             recusandae impedit distinctio laboriosam modi a nulla ratione
@@ -54,15 +54,19 @@ const Home = () => {
           </p>
         </div>
 
-        <div>
-          <button>Road Map</button>
-          <button>Book a Trip</button>
+        <div className="space-x-4">
+          <button className="bg-gray-300 py-2 px-5 rounded-md hover:bg-white hover:duration-300">
+            Road Map
+          </button>
+          <button className="text-gray-300 border rounded-md py-2 px-5 hover:bg-white hover:text-black hover:duration-300">
+            Book a Trip
+          </button>
         </div>
 
-        <div>
-          <AiFillFacebook />
-          <AiFillInstagram />
-          <AiFillTwitterSquare />
+        <div className="text-white flex space-x-5">
+          <AiFillFacebook size={"2rem"} />
+          <AiFillInstagram size={"2rem"} />
+          <AiFillTwitterSquare size={"2rem"} />
         </div>
       </div>
     </React.Fragment>
