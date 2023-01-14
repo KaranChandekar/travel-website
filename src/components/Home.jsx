@@ -64,9 +64,9 @@ const Home = () => {
         </div>
 
         <div className="text-white flex space-x-5">
-          <AiFillFacebook size={"2rem"} />
-          <AiFillInstagram size={"2rem"} />
-          <AiFillTwitterSquare size={"2rem"} />
+          <AiFillFacebook size={"2rem"} className="cursor-pointer" />
+          <AiFillInstagram size={"2rem"} className="cursor-pointer" />
+          <AiFillTwitterSquare size={"2rem"} className="cursor-pointer" />
         </div>
       </div>
     </React.Fragment>
