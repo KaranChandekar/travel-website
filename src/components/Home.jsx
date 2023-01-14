@@ -17,21 +17,27 @@ const Home = () => {
         />
       </div>
 
-      <nav className="">
+      <nav className="w-full absolute top-0 p-5 flex justify-between text-white z-10">
         <div>
-          <h1>قطر</h1>
+          <h1 className="text-3xl font-bold">قطر</h1>
         </div>
 
         <div>
-          <ul>
-            <li>Doha</li>
-            <li>Al Wakrah</li>
-            <li>Al Rayan</li>
-            <li>Al Khor</li>
+          <ul className="flex space-x-5 font-bold cursor-pointer text-gray-300">
+            <li className="hover:text-white">Doha</li>
+            <li className="hover:text-white">Al Wakrah</li>
+            <li className="hover:text-white">Al Rayan</li>
+            <li className="hover:text-white">Al Khor</li>
           </ul>
-          <div>
-            <AiOutlineSearch />
-            <input type="text" />
+
+          <div className="flex items-center space-x-2 mt-5">
+            <AiOutlineSearch className="text-xl cursor-pointer" />
+
+            <input
+              className="bg-inherit border-b outline-0 border-gray-300 p-1 w-full"
+              type="text"
+              placeholder="search"
+            />
           </div>
         </div>
       </nav>
