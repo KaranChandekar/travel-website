@@ -59,7 +59,7 @@ const Places = () => {
 
       <div className="my-10 text-center">
         <h1 className="text-4xl font-bold">Our Recomendation</h1>
-        <section className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-cols-1 gap-10 my-10 justify-items-center items-center">
+        <section className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-cols-1 gap-10 my-10 justify-items-center items-center pb-10 border-b">
           <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white">
             <img
               className="w-full h-1/2 object-cover rounded-t-lg"
