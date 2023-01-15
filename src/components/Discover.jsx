@@ -7,7 +7,7 @@ const Discover = () => {
       <div className="w-full m-auto flex flex-col md:flex-row space-y-10 md:space-x-10 justify-between items-center py-10">
         <div className="w-full space-y-5">
           <img
-            className="w-full drop-shadow-2xl rounded-lg border-8 border-stones-700"
+            className="w-full drop-shadow-2xl rounded-lg border-8 border-stones-700 cursor-pointer opacity-80 hover:opacity-100 duration-200"
             src="images/safari_desert.jpg"
             alt=""
           />
@@ -42,7 +42,7 @@ const Discover = () => {
             repellendus eligendi? Qui.
           </p>
           <img
-            className="drop-shadow-2xl border-8 border-stones-700 rounded-lg"
+            className="drop-shadow-2xl border-8 border-stones-700 rounded-lg cursor-pointer opacity-80 hover:opacity-100 duration-200"
             src="images/desert.jpg"
             alt=""
           />
