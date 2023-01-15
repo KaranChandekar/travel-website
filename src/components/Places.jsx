@@ -60,7 +60,7 @@ const Places = () => {
       <div className="my-10 text-center">
         <h1 className="text-4xl font-bold">Our Recomendation</h1>
         <section className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-cols-1 gap-10 my-10 justify-items-center items-center pb-10 border-b">
-          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white">
+          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white cursor-pointer opacity-80 hover:opacity-100 duration-200">
             <img
               className="w-full h-1/2 object-cover rounded-t-lg"
               src="images/image-8.jpg"
@@ -84,7 +84,7 @@ const Places = () => {
               </div>
             </div>
           </div>
-          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white">
+          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white cursor-pointer opacity-80 hover:opacity-100 duration-200">
             <img
               className="w-full h-1/2 object-cover rounded-t-lg"
               src="images/image-3.jpg"
@@ -108,7 +108,7 @@ const Places = () => {
               </div>
             </div>
           </div>
-          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white">
+          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white cursor-pointer opacity-80 hover:opacity-100 duration-200">
             <img
               className="w-full h-1/2 object-cover rounded-t-lg"
               src="images/image-2.jpg"
@@ -132,7 +132,7 @@ const Places = () => {
               </div>
             </div>
           </div>
-          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white">
+          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white cursor-pointer opacity-80 hover:opacity-100 duration-200">
             <img
               className="w-full h-1/2 object-cover rounded-t-lg"
               src="images/image-7.jpg"
@@ -156,7 +156,7 @@ const Places = () => {
               </div>
             </div>
           </div>
-          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white">
+          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white cursor-pointer opacity-80 hover:opacity-100 duration-200">
             <img
               className="w-full h-1/2 object-cover rounded-t-lg"
               src="images/image-8.jpg"
@@ -180,7 +180,7 @@ const Places = () => {
               </div>
             </div>
           </div>
-          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white">
+          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white cursor-pointer opacity-80 hover:opacity-100 duration-200">
             <img
               className="w-full h-1/2 object-cover rounded-t-lg"
               src="images/image-3.jpg"
@@ -204,7 +204,7 @@ const Places = () => {
               </div>
             </div>
           </div>
-          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white">
+          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white cursor-pointer opacity-80 hover:opacity-100 duration-200">
             <img
               className="w-full h-1/2 object-cover rounded-t-lg"
               src="images/image-2.jpg"
@@ -228,7 +228,7 @@ const Places = () => {
               </div>
             </div>
           </div>
-          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white">
+          <div className="drop-shadow-2xl text-left rounded space-y-2 bg-white cursor-pointer opacity-80 hover:opacity-100 duration-200">
             <img
               className="w-full h-1/2 object-cover rounded-t-lg"
               src="images/image-7.jpg"
