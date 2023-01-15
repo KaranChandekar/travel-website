@@ -63,7 +63,7 @@ const Discover = () => {
       </div>
 
       <div className="my-20 flex justify-between items-center h-[500px]">
-        <div className="xl:w-[500px] w-1/3 sm:block hidden">
+        <div className="xl:w-[500px] w-1/3 lg:block hidden">
           <img
             className="w-full h-full object-cover"
             src="images/image-33.jpg"
@@ -84,7 +84,7 @@ const Discover = () => {
             Book Now
           </button>
         </div>
-        <div className="xl:w-[500px] w-1/3 sm:block hidden">
+        <div className="xl:w-[500px] w-1/3 lg:block hidden">
           <img
             className="w-full h-full object-cover"
             src="images/image-33.jpg"
