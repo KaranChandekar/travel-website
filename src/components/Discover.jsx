@@ -62,7 +62,7 @@ const Discover = () => {
         </div>
       </div>
 
-      <div className="my-20 flex justify-between items-center h-[500px]">
+      <div className="my-20 flex justify-between items-center xl:h-[500px]">
         <div className="xl:w-[500px] w-1/3 lg:block hidden">
           <img
             className="w-full h-full object-cover"
