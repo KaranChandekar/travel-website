@@ -15,15 +15,15 @@ import { FaAppStore, FaGooglePlay } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-4/5 m-auto py-10">
+    <footer className="w-4/5 m-auto py-10 cursor-default">
       <div className="md:flex md:justify-between sm:grid sm:grid-cols-2 sm:justify-center items-center my-10">
         <div className="space-y-5 py-5 border-b">
-          <h1 className="text-3xl font-bold">Qatar</h1>
+          <h1 className="text-3xl font-bold cursor-pointer">Qatar</h1>
           <div className="flex space-x-5">
-            <AiFillFacebook size={"1.5rem"} />
-            <AiFillInstagram size={"1.5rem"} />
-            <AiFillTwitterSquare size={"1.5rem"} />
-            <AiOutlineWhatsApp size={"1.5rem"} />
+            <AiFillFacebook size={"1.5rem"} className="cursor-pointer" />
+            <AiFillInstagram size={"1.5rem"} className="cursor-pointer" />
+            <AiFillTwitterSquare size={"1.5rem"} className="cursor-pointer" />
+            <AiOutlineWhatsApp size={"1.5rem"} className="cursor-pointer" />
           </div>
           <div className="flex items-center space-x-2">
             <AiOutlinePhone />
