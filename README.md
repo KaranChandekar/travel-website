@@ -2,19 +2,19 @@
 
 Responsive Travel Website Using React.js And Tailwind CSS - [Take a look](https://discover-qatar.netlify.app/)
 
-![Practice](https://img.shields.io/badge/Practice-REACTJS-orange.svg)
+![Practice](https://img.shields.io/badge/Practice-ReactJs/TailwindCSS-orange.svg)
 
 ## Tech Stack
 
 - HTML5
-- REACTJS
+- ReactJs
 - Tailwind (CSS Framework)
 - React Icons (Package Manager)
 - [Awesomeness](https://www.wikihow.com/Love-Programming) - Strictly for the love of coding :-)
 
 ## Use of Project
 
-To simply be comfortable with React :)
+To simply be comfortable with React and Tailwind :)
 
 ## Screenshot
 
