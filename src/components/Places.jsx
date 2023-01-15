@@ -12,7 +12,7 @@ const Places = () => {
         </p>
       </div>
 
-      <div className="block md:grid grid-rows-2 grid-flow-col gap-4 w-full pb-10 border-b">
+      <div className="block md:grid grid-rows-3 lg:grid-rows-2 grid-flow-col gap-4 w-full pb-10 border-b space-y-6 md:space-y-0">
         <div className="row-span-1 col-span-2">
           <img
             className="w-full h-full object-cover rounded-md"
@@ -20,35 +20,35 @@ const Places = () => {
             alt=""
           />
         </div>
-        <div className="row-span-1 col-span-1">
+        <div className="lg:row-span-1 lg:col-span-1 md:col-span-2">
           <img
             className="w-full h-full object-cover rounded-md"
             src="images/image-3.jpg"
             alt=""
           />
         </div>
-        <div className="row-span-1 col-span-1">
+        <div className="lg:row-span-1 lg:col-span-1 md:col-span-2">
           <img
             className="w-full h-full object-cover rounded-md"
             src="images/desert.jpg"
             alt=""
           />
         </div>
-        <div className="row-span-2 col-span-1">
+        <div className="lg:row-span-2 lg:col-span-1 md:col-span-2 md:row-span-1">
           <img
             className="w-full h-full object-cover rounded-md"
             src="images/city.jpg"
             alt=""
           />
         </div>
-        <div className="row-span-1 col-span-1">
+        <div className="lg:row-span-1 lg:col-span-1 md:col-span-2">
           <img
             className="w-full h-full object-cover rounded-md"
             src="images/image.jpg"
             alt=""
           />
         </div>
-        <div className="row-span-1 col-span-1">
+        <div className="lg:row-span-1 lg:col-span-1 md:col-span-2">
           <img
             className="w-full h-full object-cover rounded-md"
             src="images/doha.jpg"
