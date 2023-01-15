@@ -12,7 +12,7 @@ const Places = () => {
         </p>
       </div>
 
-      <div className="block md:grid grid-rows-3 lg:grid-rows-2 grid-flow-col gap-4 w-full pb-10 border-b space-y-6 md:space-y-0">
+      <div className="inline md:grid grid-rows-3 lg:grid-rows-2 grid-flow-col gap-4 w-full lg:h-[450px] pb-10 border-b space-y-6 md:space-y-0">
         <div className="row-span-1 col-span-2">
           <img
             className="w-full h-full object-cover rounded-md"
